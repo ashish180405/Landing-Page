@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(./Assets/bg1.jpg);
+    background-size: cover;
+}
+
+.nav{
+    /* background-color: black; */
+    height: 9rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.nav-Options ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav-Options ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 1.45rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.badge{
+    height: 2rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.25rem;
+    width: 100px;
+    border-radius: 5px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.badge:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.nav-Options ul li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
